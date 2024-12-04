@@ -2,7 +2,7 @@ FROM node:buster-slim
 
 ENV NODE_ENV=production
 ENV PORT=8080
-ENV MODEL_URL='https://storage.googleapis.com/submission-bucket-alfandwicp/model-in-prod/model.json'
+ENV MODEL_URL='https://storage.googleapis.com/submission-bucket-alfandwicahyap/model-in-prod/model.json'
 
 COPY . .
 
